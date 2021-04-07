@@ -1,0 +1,214 @@
+.bg-detail {
+    background-color: #1d1616;
+    height: 160px;
+}
+
+.detail {
+    padding-top: 150px;
+    background-color: #140a0015;
+}
+
+.recipe-detail img{
+    margin: 0 50px 30px 0;
+
+    object-fit: cover;
+
+    width: 400px;
+    height: 400px;
+
+    border-radius: 10px;
+}
+
+.recipe-detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-recipe-detail p{
+    font-size: 16px;
+}
+
+.about-recipe-detail {
+    line-height: 18px;
+}
+
+.heading-detail {
+
+    margin: 20px 0 20px 0;
+
+    font-size: 35px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.about-posts.detail-posts {
+    width: 100px;
+    margin-bottom: 30px;
+    margin-right: 96%;
+}
+
+.about-posts.detail-posts button {
+    color: #1d1616;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px #1d1616 solid;
+    border-radius: 10px;
+    padding: 2px 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.about-posts.detail-posts button:hover {
+    color: #dbdbdb;
+    background-color: #2c2424;
+}
+
+.review-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    justify-content: flex-start;
+
+    width: 80%;
+
+    border: 1px #1d1616 solid;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews h3 {
+    margin-bottom: 50px;
+}
+
+.review-img img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
+
+.about-reviewer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+
+    border: 1px #1d1616 solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.reviewer-name {
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #1d1616;
+
+    margin-top: 20px;
+}
+
+.review-text {
+    padding: 20px 20px 20px 50px;
+}
+
+.review-title h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.form-review {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 150px;
+    width: 80%;
+}
+
+.form-review img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+
+    margin-top: -40px;
+}
+
+.input-review {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 50px;
+}
+
+.btn-review {
+    width: 100px;
+    height: 30px;
+    margin: 6px auto;
+
+    color: #dbdbdb;
+    background-color: #1d1616;
+
+    font-size: 19px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .4s;
+}
+
+.btn-review:hover {
+    background-color: #dbdbdb;
+    color: #1d1616;
+}
+
+.by-author h3{
+    margin: 15px 0;
+    
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: right;
+}
+
+.by-author a {
+    color: #1d1616;
+
+    transition: .4s;
+}
+
+.by-author a:hover {
+    color: #443333;
+}
+
+.likes-posts.active {
+    display: none;
+}
+
+.dislikes-posts.active {
+    display: flex;
+}
+
+.dislikes-posts {
+    display: none;
+}
+
+#heading-review {
+    font-size: 19px;
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}

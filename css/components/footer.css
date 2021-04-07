@@ -1,0 +1,195 @@
+.footer {
+    background-color: #1d1616;
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #dbdbdb;
+
+    height: 200px;
+
+    position: relative;
+}
+
+.footer-main a{
+    color: #dbdbdb;
+}
+
+.logo-footer {
+    font-size: 28px;
+    font-weight: bold;
+
+    border-bottom: 1px #dbdbdb solid;
+    border-top: 1px #dbdbdb solid;
+}
+ 
+.heading-footer {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.follow-footer {
+    height: 130px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-networks {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.social-networks a {
+    width: 25px;
+    height: 25px;
+
+    padding: 3px;
+    margin: 3px;
+
+    border: 1px #dbdbdb solid;
+    border-radius: 5px;
+
+    transition: .4s;
+}
+
+.social-networks i {
+    font-size: 18px;
+}
+
+.social-networks a:hover {
+    background-color: #dbdbdb;
+    color: #1d1616;
+}
+
+.about-footer a {
+    display: flex;
+    flex-direction: column;
+
+    font-family: "PT Sans";
+    font-size: 17px;
+
+    margin-top: 15px;
+}
+
+.about-footer {
+    height: 130px;
+}
+
+.find-footer {
+    height: 130px;
+}
+
+.addres {
+    margin-top: 8px;
+}
+
+.addres p {
+    color: #dbdbdb;
+    line-height: 40px;
+    font-size: 16px;
+    word-spacing: 1px;
+}
+
+.phone-number span {
+    color: #dbdbdb;
+}
+
+.mail {
+    color: #dbdbdb;
+}
+
+.footer-contact i {
+    margin-right: 10px;
+}
+
+.phone-number {
+    margin-top: 10px;
+}
+
+.phone-number i {
+    margin-left: 3px;
+}
+
+.phone-number a {
+    transition: .4s;
+}
+
+.phone-number a:hover {
+    text-decoration: underline;
+}
+
+.mail {
+    margin-top: 15px;
+}
+
+.mail a  {
+    transition: .4s;
+}
+
+.mail a:hover {
+    text-decoration: underline;
+}
+
+.find-footer i {
+    margin-right: 10px;
+}
+
+.footer-main::after {
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+    bottom: 0;
+    right: 0;
+
+    background-color: #dbdbdb;
+    height: 1px;
+}
+
+.footer-copyright {
+    height: 100px;
+    flex-direction: column;
+}
+
+.footer-copyright a,
+.footer-copyright p {
+    color: #dbdbdb;
+
+    font-size: 12px;
+    font-family: "PT Sans";
+}
+
+.terms-conditions {
+    margin-bottom: 8px;
+}
+
+.terms-conditions a {
+    border-right: 1px #dbdbdb solid;
+    padding-right: 5px;
+}
+
+.terms-conditions a:last-child {
+    border: none;
+}
+
+.recaptcha {
+    margin-bottom: 8px;
+}
+
+.recaptcha a {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+
+    transition: .4s;
+}
+
+.recaptcha a:hover {
+    text-decoration-style: solid;
+}

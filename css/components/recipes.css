@@ -1,0 +1,75 @@
+.nav-recipe {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #292020;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+    z-index: 2;
+}
+
+.nav-recipe a {
+    margin: 0 10px;
+    color: #fff;
+
+    transition: .4s;
+}
+
+.nav-recipe a:hover,
+.nav-recipe a:active,
+.nav-recipe a:focus {
+    font-size: 24px;
+}
+
+#addCategory {
+    background-color: #272323;
+    color: #fff;
+
+    font-size: 18px;
+
+    width: 50%;
+
+    padding: 5px;
+}
+
+.posts.main-recipe {
+    margin-top: 170px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination li{
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    width: 20px;
+    padding: 5px;
+    background-color: #272323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination a{
+    color: #fff;
+}
+
+.pagination ul {
+    display: flex;
+
+    margin: 0 10px;
+}

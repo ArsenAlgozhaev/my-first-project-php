@@ -1,0 +1,61 @@
+.fullscreen-bg {
+    overflow: hidden;
+    position: relative;
+    padding: 24% 17%;
+    z-index: 4;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.output-text {
+    position: relative;
+    z-index: 5;
+    width: 95%;
+}
+
+.output-text {
+    font-size: 45px;
+    color: #dbdbdb;
+    height: 150px;
+    text-transform: capitalize;
+}
+
+.blink-cursor {
+    opacity: 0;
+    animation: blinked .2s infinite ;
+}
+
+@keyframes blinked {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 860px) {
+    .fullscreen-bg {
+        background: url('../../image/backgrounds/cooking-bg.jpg') center center / cover no-repeat;
+    }
+    .fullscreen-bg__video {
+        display: none;
+    }
+}

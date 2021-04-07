@@ -1,0 +1,125 @@
+body {
+    /* font-family: "Playfair Display"; */
+}
+
+.conteiner {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.indent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.heading {
+    border-bottom: 1px #000 solid;
+    border-top: 1px #000 solid;
+
+    padding: 10px 0 10px 0;
+
+    font-size: 32px;
+    font-weight: bold;
+    color: #111877;
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrap-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.types-food h3{
+    text-align: right;
+}
+
+
+
+/*  effect */
+
+a:before, 
+a:after, 
+a > span:before, 
+a > span:after {
+    content: '';
+    position: absolute;
+    transition: transform .4s ease;
+}
+
+.effect-5 {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.effect-5:before, 
+.effect-5:after {
+    right: 0;
+    bottom: 0;
+    background: #dbdbdb;
+}
+
+.effect-5:before {
+    width: 100%;
+    height: 1px;
+    transform: translateX(-102%);
+}
+
+.effect-5:after {
+    width: 1px;
+    height: 100%;
+    transform: translateY(102%);
+}
+  
+.effect-5 > span {
+    display: block;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.effect-5 > span:before, 
+.effect-5 > span:after {
+    left: 0;
+    top: 0;
+    background: #dbdbdb;
+}
+
+.effect-5.black:before, 
+.effect-5.black:after {
+    background-color: #1d1616;
+}
+
+.effect-5.black > span:before, 
+.effect-5.black > span:after {
+    background-color: #1d1616;
+}
+
+.effect-5 > span:before {
+    width: 100%;
+    height: 1px;
+    transform: translateX(102%);
+}
+  
+.effect-5 > span:after {
+    width: 1px;
+    height: 100%;
+    transform: translateY(-102%);
+}
+
+.effect-5:hover:before, 
+.effect-5:hover:after, 
+.effect-5:hover > span:before, 
+.effect-5:hover > span:after {
+    transform: translate(0, 0);
+}

@@ -1,0 +1,165 @@
+.profile {
+    padding-top: 150px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+
+    margin: auto;
+}
+
+.profile-data {
+    margin-left: 150px;
+}
+
+.info-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-profile button {
+    margin: 20px auto;
+
+    width: 60%;
+
+    background-color: #1d1616;
+    color: #dbdbdb;
+
+    padding: 5px 8px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    transition: .4s;
+
+    cursor: pointer;
+}
+
+.info-profile button:hover {
+    background-color: #fff;
+    color: #1d1616;
+}
+
+.phone-num-profile,
+.email-address-profile {
+    margin-left: 10px;
+
+    text-decoration: 1px underline;
+}
+
+
+.info-profile h3 {
+    font-size: 19px;
+
+    margin: 10px 0 ;
+}
+
+.info-profile label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0 9px 0;
+}
+
+.info-profile input {
+    margin-bottom: 25px;
+}
+
+.profile-name h3{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile-subscribers {
+    cursor: pointer;
+}
+
+.profile-subscribers p,
+.profile-likes p,
+.profile-publications p {
+    font-size: 22px;
+}
+
+.profiler-follower div {
+    margin: 60px 35px 0 35px;
+}
+
+#num-profile-follower {
+    font-size: 30px;
+    font-weight: bold;
+
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.post-recipe button {
+    color: #dbdbdb;
+    background-color: #1d1616;
+
+    transition: .4s;
+
+    font-size: 16px;
+
+    padding: 1px 15px;
+
+    cursor: pointer;
+}
+
+.post-recipe button:hover {
+    color: #1d1616;
+    background-color: #fff;
+}
+
+.profile-data button{
+    color: #dbdbdb;
+    background-color: #1d1616;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 3px 18px;
+
+    margin-left: 70%;
+    margin-top: 40px;
+
+    transition: .4s;
+
+    cursor: pointer;
+}
+
+.profile-data button:hover {
+    color: #1d1616;
+    background-color: #fff;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.subscribe.active {
+    display: none;
+}
+
+.unsubscribe {
+    display: none;
+}
+
+.unsubscribe.active {
+    display: flex;
+}
+
+#nav-post {
+    display: contents;
+    color: #1d1616;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 5px;
+}

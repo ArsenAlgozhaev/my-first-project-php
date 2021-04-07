@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import url("vendor/same.css");
+
+@import url("components/header.css");
+
+@import url("components/detail.css");
+
+@import url("components/modal-menu.css");
+
+@import url("components/modal-window.css");
+
+@import url("components/footer.css");
+
+@import url("components/profile.css");
+
+@import url("components/recipes.css");
+
+@import url("components/up.css");
+
+@import url("components/about.css");
+
+@import url("components/video.css");
+
+@import url("vendor/reset.css");
+
+@import url("components/adaptive.css");
